@@ -208,7 +208,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				C06539D0ECC3828374BA06F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -334,24 +333,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HQUIKit_Tests/Pods-HQUIKit_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C06539D0ECC3828374BA06F1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HQUIKit_Example/Pods-HQUIKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HQUIKit/HQUIKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HQUIKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HQUIKit_Example/Pods-HQUIKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FFC94DF56CCFEB1C50C2EDD7 /* [CP] Check Pods Manifest.lock */ = {

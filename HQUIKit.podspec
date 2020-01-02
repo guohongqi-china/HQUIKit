@@ -8,14 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HQUIKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'iOS UI handle Kit HQUIKit.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
 TODO: iOS UI handle Kit HQUIKit.
@@ -30,22 +25,7 @@ TODO: iOS UI handle Kit HQUIKit.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HQUIKit/Classes/HQUIKitHeader.h'
-  s.public_header_files = 'HQUIKit/Classes/HQUIKitHeader.h'
-  
-  pch_AF = <<-EOS
-#ifndef TARGET_OS_IOS
-  #define TARGET_OS_IOS TARGET_OS_IPHONE
-#endif
-
-EOS
-  s.prefix_header_contents = pch_AF
-  
-  s.subspec 'UIFramework' do |ss|
-    ss.source_files = 'HQUIKit/Classes/UIFramework**/*.{h,m}'
-    ss.public_header_files = 'HQUIKit/Classes/UIFramework**/*.{h}'
-  end
-
+  s.source_files = 'HQUIKit/Classes/**/*'
 
   # s.resource_bundles = {
   #   'HQUIKit' => ['HQUIKit/Assets/*.png']

@@ -21,17 +21,27 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/820003039@qq.com/HQUIKit'
+  s.homepage         = 'https://github.com/guohongqi-china/HQUIKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '820003039@qq.com' => 'guohongqi9010@zto.com' }
-  s.source           = { :git => 'https://github.com/820003039@qq.com/HQUIKit.git', :tag => s.version.to_s }
+  s.author           = { 'guohongqi-china' => 'guohongqi9010@zto.com' }
+  s.source           = { :git => 'https://github.com/guohongqi-china/HQUIKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HQUIKit/Classes/**/*'
+  s.source_files = 'HQUIKit/Classes/HQUIKitHeader.h'
+  s.public_header_files = 'HQUIKit/Classes/HQUIKitHeader.h'
   
+EOS
+  s.prefix_header_contents = pch_AF
+  
+  s.subspec 'UIFramework' do |ss|
+    ss.source_files = 'HQUIKit/Classes/UIFramework**/*.{h,m}'
+    ss.public_header_files = 'HQUIKit/Classes/UIFramework**/*.{h}'
+  end
+
+
   # s.resource_bundles = {
   #   'HQUIKit' => ['HQUIKit/Assets/*.png']
   # }

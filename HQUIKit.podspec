@@ -17,9 +17,9 @@ TODO: iOS UI handle Kit HQUIKit.
                        DESC
 
   s.homepage         = 'https://github.com/guohongqi-china/HQUIKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  # s.screenshots    = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'guohongqi-china' => 'guohongqi9010@zto.com' }
+  s.author           = { 'guohongqi-china' => '820003039@qq.com' }
   s.source           = { :git => 'https://github.com/guohongqi-china/HQUIKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -27,11 +27,5 @@ TODO: iOS UI handle Kit HQUIKit.
 
   s.source_files = 'HQUIKit/Classes/**/*'
 
-  # s.resource_bundles = {
-  #   'HQUIKit' => ['HQUIKit/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

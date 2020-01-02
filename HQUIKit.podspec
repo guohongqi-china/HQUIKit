@@ -33,6 +33,11 @@ TODO: Add long description of the pod here.
   s.source_files = 'HQUIKit/Classes/HQUIKitHeader.h'
   s.public_header_files = 'HQUIKit/Classes/HQUIKitHeader.h'
   
+  pch_AF = <<-EOS
+#ifndef TARGET_OS_IOS
+  #define TARGET_OS_IOS TARGET_OS_IPHONE
+#endif
+
 EOS
   s.prefix_header_contents = pch_AF
   

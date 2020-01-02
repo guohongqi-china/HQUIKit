@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		231915381641DA0922E37716 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		231915381641DA0922E37716 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HQUIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQUIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,9 +61,9 @@
 		7CB57AB516CAC43EA378694A /* Pods_HQUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HQUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95D7EA50B48453D249149894 /* Pods-HQUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQUIKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-HQUIKit_Tests/Pods-HQUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9630A9FA7C50EDE1A925CFF7 /* HQUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HQUIKit.podspec; path = ../HQUIKit.podspec; sourceTree = "<group>"; };
+		9630A9FA7C50EDE1A925CFF7 /* HQUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HQUIKit.podspec; path = ../HQUIKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A8141656E32D34EE56F9CE96 /* Pods-HQUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQUIKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-HQUIKit_Example/Pods-HQUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A87C7E7E137F052DC709EBBB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A87C7E7E137F052DC709EBBB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B9BC3A83C176D23F2FE51064 /* Pods_HQUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HQUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB673E07A716BC7D29F4CC6E /* Pods-HQUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQUIKit_Example.release.xcconfig"; path = "Target Support Files/Pods-HQUIKit_Example/Pods-HQUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CFF36547541E1041B30C22AB /* Pods-HQUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQUIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HQUIKit_Tests/Pods-HQUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				CFF36547541E1041B30C22AB /* Pods-HQUIKit_Tests.debug.xcconfig */,
 				95D7EA50B48453D249149894 /* Pods-HQUIKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

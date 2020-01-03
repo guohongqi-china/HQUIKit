@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HQUIKit'
-  s.version          = '0.1.3
+  s.version          = '0.1.4
   '
   s.summary          = 'iOS UI handle Kit HQUIKit.'
 
@@ -42,6 +42,11 @@ EOS
       ss.source_files = 'HQUIKit/Classes/UIFramework/**/*.{h,m}'
       ss.public_header_files = 'HQUIKit/Classes/UIFramework/**/*.{h}'
       ss.ios.frameworks = 'MobileCoreServices', 'CoreGraphics'
+    end
+    
+    s.subspec 'TableViewConfig' do |ss|
+      ss.source_files = 'HQUIKit/Classes/TableViewConfig/**/*.{h,m}'
+      ss.public_header_files = 'HQUIKit/Classes/TableViewConfig/**/*.{h}'
     end
 
 
